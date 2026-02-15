@@ -21,34 +21,45 @@ h1 {
 
 h3 {
     font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
-    padding-left: 25px;
-    padding-top: 100px;
+    padding-left: 10px;
+    padding-top: 50px;
 }
 
 h3#block-2 {
     font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    padding-right: 25px;
+    padding-right: 10px;
 }
 
 h3#block-3 {
     font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    padding-right: 25px;
+    padding-right: 10px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    max-width: 50%;
+    margin-left: 5%;
 }
 
 .block-1{
     text-align: left;
     font-size: 20px;
     max-width: 45%;
-    padding-left: 25px;
+    padding-left: 10px;
 }
 
 .block-2 {
     text-align: right;
     font-size: 20px;
     max-width: 70%;
+    padding-right: 3%;
 }
 
 img#avatar {
@@ -87,6 +98,13 @@ img#QR-code {
     height: 400px;
 }
 
+img#cat-img, img#orange-img {
+    float: right;
+    height: 200px;
+    margin-right: 5%;
+    border: 2px solid black;
+}
+
 .description {
     max-width: 75%;
     font-size: 20px;
@@ -111,8 +129,8 @@ div#screenshots {
     flex-wrap: wrap;
     background-image: url("../images/bg-projects.jpeg");
     filter: brightness(90%);
-    gap: 100px;
-    padding: 25px;
+    gap: 10px;
+    padding: 0px;
     text-align: center;
     border: 3px solid black;
 }
@@ -140,6 +158,11 @@ div#screenshots {
         font-size: 18px;
     }
 
+    p {
+        font-size: 13px;
+        max-width: 75%;
+    }
+
     img {
         max-width: 100%;
         height: auto;
@@ -148,17 +171,18 @@ div#screenshots {
     img#avatar {
         height: 55px;
         margin-top: 10px;
-        margin-left: 12.5%;
+        margin-left: 10px;
         margin-right: 7%;
     }
 
     img#computer-img {
-        height: 175px;
+        height: 150px;
         margin-top: 150px;
+        margin-right: 15%;
     }
 
     img#processor-img {
-        height: 125px;
+        height: 115px;
     }
 
     img#screen-1 {
@@ -167,17 +191,17 @@ div#screenshots {
     }
 
     img#screen-2 {
-        height: 175px;
+        height: 150px;
         border: 3px solid black;
     }
 
     img#screen-3 {
-        height: 175px;
+        height: 150px;
         border: 3px solid black;
     }
 
     img#screen-4 {
-        height: 175px;
+        height: 150px;
         border: 3px solid black;
     }
 
@@ -188,25 +212,37 @@ div#screenshots {
         margin-bottom: 10%;
     }
 
+    img#cat-img, img#orange-img {
+        float: none;
+        height: 100px;
+        margin-left: 5%;
+    }
+
 
     .description {
         font-size: 16px;
-        padding-left: 12.5%;
+        padding-left: 10px;
         max-width: 80%;
     }
 
     .block-1 {
         font-size: 13px;
-        max-width: 90%;
+        max-width: 75%;
     }
 
     .block-2 {
         font-size: 13px;
-        margin-right: 5%;
+        margin-right: 11%;
     }
 
     div#content-block-3 {
     display: block;
+    max-width: 90%;
 }
+
+    div#screenshots {
+        padding: 10px;
+        max-width: 100%;
+    }
 
 }
